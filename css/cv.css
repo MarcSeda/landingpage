@@ -2,6 +2,8 @@
     body {
         background-color: rgb(89, 183, 82);
         color: black;
+        border: solid black;
+        padding-left: 2%;
         }
     
 img{
