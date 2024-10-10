@@ -1,0 +1,11 @@
+.imagen{
+    display: flex;
+    justify-content: flex-start;
+}
+.nombre{
+    display: flex;
+}
+.navegacion{
+    display: flex;
+    justify-content: flex-end;
+}
