@@ -90,6 +90,8 @@ padding: 1rem;
 main .proyectos{
     background-color: rgb(136, 172, 9);
     padding: 1rem;
+    width: 80%;
+    text-align: center;
 }
 
 main .work{
