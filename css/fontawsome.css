@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.tab-container-1{
+    display: flex;
+    width: 100%;
+    background-color: rgb(85, 17, 105);
+    justify-content: space-around;
+    margin: 0% auto;
+    padding: 10px;
+}
+
+.tab-container-1 div{
+    background-color: rgb(155, 14, 190);
+    width: 5%;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 12px;
+    padding: 10px 0;
+    margin: 20px;
+}
+
+.tab-container-1 div:hover{
+    background-color: rgb(198, 11, 245);
+    cursor: pointer;
+}
+
+body{
+    background-color: rgb(196, 97, 58);
+}
