@@ -44,7 +44,8 @@ ul{
 }
 
 img{
-    width: 100%;
+    width: 20%;
+    border: solid black;
     object-fit: cover;
 }
 
@@ -64,8 +65,8 @@ img{
     background-color: blue;
 }
 
-.container{
-    max-width: 800px;
+header .container{
+    max-width: 900px;
     margin: 0 auto;
 }
 
@@ -88,26 +89,66 @@ padding: 1rem;
 }
 
 main .proyectos{
-    background-color: rgb(136, 172, 9);
+    background-color: rgb(209, 46, 46);
+    border-radius: 10px;
+    border: solid black;
     padding: 1rem;
-    width: 80%;
+    margin: 3rem;
+    width: 33%;
     text-align: center;
 }
 
 main .work{
-    background-color: pink;
-    padding-left: 1rem;
+    background-color: rgb(231, 125, 125);
+    border-radius: 10px;
+    border: solid black;
+    padding: 1rem;
+    margin: 3rem;
+    width: 33%;
+
 }
 
 main .educacion{
-    background-color: blueviolet;
-    padding-left: 1rem;
+    background-color: rgb(209, 46, 46);
+    border-radius: 10px;
+    border: solid black;
+    padding: 1rem;
+    margin: 3rem;
+    width: 33%;
+
 }
 
 .reviews{
-    background-color: burlywood;
+    display: flex;
 }
 
 main{
     display: flex;
+}
+
+.lorem{
+    background-color: rgb(125, 198, 231);
+    border: solid black;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 3rem;
+
+
+}
+.lorem1{
+    background-color: rgb(5, 112, 161);
+    border-radius: 10px;
+    border: solid black;
+    padding: 1rem;
+    margin: 3rem;
+
+
+}
+.lorem2{
+    background-color: rgb(125, 198, 231);
+    border-radius: 10px;
+    border: solid black;
+    padding: 1rem;
+    margin: 3rem;
+
 }
