@@ -25,3 +25,10 @@ h2{
     color: rgb(196, 129, 47);font-size: 2rem;
 
 }
+
+a{
+text-decoration: none;
+color: black;
+font-weight: bold;
+}
+
