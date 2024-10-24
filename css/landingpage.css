@@ -1,0 +1,46 @@
+:root{
+    --primary-color: rgb(0, 64, 106);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 17px;
+    line-height: 1.5;
+    color: rgb(230, 223, 223);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#showcase{
+    background-image: url(../img/Galaxia.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3em;
+}
+
+#showcase::after{
+    content:'hola';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,0.4);
+    width: 100%;
+    height:100% ;
+    z-index: 1;
+}
+
+h1, p, a{
+    z-index: 2;
+}
+
+a{
+    background-color: var(--primary-color);
+}
