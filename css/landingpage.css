@@ -1,5 +1,5 @@
 :root{
-    --primary-color: rgb(0, 64, 106);
+    --primary-color: #023B65;
 }
 
 *{
@@ -43,4 +43,41 @@ h1, p, a{
 
 a{
     background-color: var(--primary-color);
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 17px;
+    padding: 3px;
+}
+
+a:hover{
+    --primary-color: #023B65;
+    background-color: rgb(184, 184, 184);
+    color: black;
+}
+
+#section-a{
+    text-align: center;
+    padding: 20px;
+}
+
+.fonsblue{
+    background-color: rgb(24, 23, 23);
+
+}
+
+#section-b{
+    background-color: rgb(71, 71, 71);
+    text-align: center;
+    padding: 20px;
+}
+
+#section-c{
+    display: flex;
+    background-color: rgb(71, 71, 71);
+}
+
+
+div{
+    padding: 20px;
 }
