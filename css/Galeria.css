@@ -1,0 +1,35 @@
+body{
+    background-color: #dac3b3;
+}
+
+nav{
+    width: 600px;
+    margin-bottom: 20px;
+    height: 5vh;
+    background-color: #cdab81;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5%;
+}
+
+img{
+    width: 270px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.galeria{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    height: 30vh;
+    width: 30vh;
+
+}
+
+.container{
+    max-width: 1078px;
+    margin: 0 auto;
+}
